@@ -1,0 +1,44 @@
+reversed:
+
+    Bubble sort: 
+        1_000: 12ms
+        10_000: 390ms
+        100_000: 35s
+        1_000_000: ?????
+    
+    Selection sort:
+        1_000: 5ms
+        10_000: 117ms
+        100_000: 15s
+        1_000_000: 26min
+
+    Insertion sort:
+        1_000: 6ms
+        10_000: 130ms
+        100_000: 9s
+        1_000_000: 18 min
+    
+    Merge sort:
+        1_000: 4ms
+        10_000: 12ms
+        100_000: 94ms
+        1_000_000: 809ms
+
+    Quick sort: 
+        1_000: 7ms
+        10_000: 170ms
+        100_000: 14s
+        1_000_000: 5 minutes (segmentation fault)
+    
+    Heap sort: 
+        1_000: 3ms
+        10_000: 16ms
+        100_000: 104ms
+        1_000_000:  935ms
+
+    Radix sort: 
+        1_000: 4ms
+        10_000: 13ms
+        100_000: 104ms
+        1_000_000: 786ms
+    

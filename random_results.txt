@@ -1,0 +1,44 @@
+    random:
+
+    Bubble sort: 
+        1_000: 6ms, 9ms, 5ms  avg 7s
+        10_000: 345ms, 336ms, 336ms avg 339ms
+        100_000: 33s, 33s, 33s avg 33s
+        1_000_000: 1h+ didn't finish 
+    
+    Selection sort:
+        1_000: 6ms, 4ms, 4ms 4ms
+        10_000: 111ms, 104ms, 70ms avg 93ms
+        100_000: 6s, 6s, 6s avg 6s
+        1_000_000: 14m avg 14 min
+
+    Insertion sort:
+        1_000: 5ms, 4ms, 3ms avg 4ms
+        10_000: 61ms, 81ms, 70ms avg 70ms
+        100_000: 4s, 4s, 4s avg 4s
+        1_000_000: 8 minutes avg 8 min
+    
+    Merge sort:
+        1_000: 4ms, 4ms, 2ms avg 3ms
+        10_000: 16ms, 18ms, 17ms  avg: 17ms
+        100_000: 124ms, 159ms, 159ms avg 147ms
+        1_000_000: 931ms, 832ms, 796ms avg 853ms
+
+    Quick sort: 
+        1_000: 4ms, 3ms, 3ms avg 3ms
+        10_000: 15ms, 16ms, 7ms avg 12ms
+        100_000: 118ms, 83ms, 80ms avg 93ms
+        1_000_000: 723ms, 951ms, 932ms  avg 868ms
+    
+    Heap sort: 
+        1_000: 3ms, 3ms, 3ms avg 3ms
+        10_000: 33ms, 15ms, 15ms avg 21ms
+        100_000: 142ms, 143ms, 78ms avg 121ms
+        1_000_000: 1s, 
+
+    Radix sort: 
+        1_000: 2ms, 3ms, 4ms avg 3ms
+        10_000: 19ms, 12ms, 11ms avg 14ms
+        100_000: 192ms, 78ms, 81ms avg 117ms
+        1_000_000: 850ms
+    
